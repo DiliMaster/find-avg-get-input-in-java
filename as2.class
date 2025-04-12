@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class as2 {
+	
+	public static void main (String[] args) {
+		
+	int markAvg = 80;
+	
+	String status = "fail";
+	
+	if (markAvg>=50){
+		
+	status="pass";	
+		
+		
+		status =(markAvg>50) ? "pass" : "fail";  //ternary : if then else operator
+		
+		
+		System.out.println(status);
+   }	
+		
+	}
+}
+
